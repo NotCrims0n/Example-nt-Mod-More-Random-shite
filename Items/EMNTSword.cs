@@ -14,8 +14,8 @@ namespace ExamplentMod.Items //namespace
 		public override void SetDefaults() 
 		{
 			item.damage = 50; //damage
-			item.melee = true; /melee weapon, if you want to change it, replace melee with range, magic, summon.
-      //item.mana = 69; consumes 69 mana per use
+			item.melee = true; //melee weapon, if you want to change it, replace melee with range, magic, summon.
+	      		//item.mana = 69; consumes 69 mana per use
 			item.width = 40; //hitbox width
 			item.height = 40; //hitbox height
 			item.useTime = 20; 
