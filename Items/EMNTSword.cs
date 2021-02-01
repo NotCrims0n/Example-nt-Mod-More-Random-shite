@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExamplentMod.Items
+namespace ExamplentMod.Items //namespace
 {
 	public class EMNTSword : ModItem
 	{
