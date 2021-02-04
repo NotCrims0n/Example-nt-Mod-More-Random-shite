@@ -9,6 +9,7 @@ namespace ExamplentMod
 {
 	public class ExamplentMod : Mod
 	{
+		//I want a hotkey or new game mechanic for my mod!
 		public static ModHotKey KillYourselfButton;
 		public override void Load()
 		{
