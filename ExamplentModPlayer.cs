@@ -38,7 +38,8 @@ namespace ExamplentMod
             //Check ExamplentMod.cs for it to fully work.
         	public override void ProcessTriggers(TriggersSet triggersSet) {
 			if (ExamplentMod.KillYourselfButton.JustPressed) {
-                player.statLifeMax2 = 0;
+                	player.statLifeMax2 = 0;
+			player.ghost = true;
 		    }
 		}
     }
