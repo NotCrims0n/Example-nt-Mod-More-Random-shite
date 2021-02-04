@@ -34,5 +34,12 @@ namespace ExamplentMod
             }
             return true; //don't forget this or ur tmod detects it as an error
         }
+            //I want my mod to have a custom hotkey or game mechanic!
+            //Check ExamplentMod.cs for it to fully work.
+        	public override void ProcessTriggers(TriggersSet triggersSet) {
+			if (ExamplentMod.KillYourselfButton.JustPressed) {
+                player.statLifeMax2 = 0;
+		    }
+		}
     }
 }
